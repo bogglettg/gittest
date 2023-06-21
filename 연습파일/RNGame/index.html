@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Random Number Game</h1>
+        <form id="game-form">
+            <div id="total-number">
+                <h2>
+                    Generate a number between 0 and
+                    <input type="number" />
+                </h2>
+            </div>
+            <div id="my-number">
+                <h3>
+                    guess the number:
+                    <input type="number" />
+                    <button id="playBtn">play!</button>
+                </h3>
+            </div>
+            <div id="result"></div>
+            <div id="final-result"></div>
+        </form>
+        <h6>*If you write negative number, it will automatically change to positive number</h6>
+        <script src="mynumber.js"></script>
+    </body>
+</html>
